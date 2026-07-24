@@ -87,21 +87,23 @@ which is the source of the chart below.
 
 Below are the raw TFLOPs of the different GPUs available from cloud providers.
 
-| Model | Arch   | FP32 | Mixed-precision | FP16 | Source             |
-| ----- | ------ | ---- | --------------- | ---- | ------------------ |
-| H100  | Hopper | 51   | 756             | 1513 | [Datasheet][h100]  |
-| A100  | Ampere | 19.5 | 156             | 312  | [Datasheet][a100]  |
-| A10G  | Ampere | 35   | 35              | 70   | [Datasheet][a10g]  |
-| A6000 | Ampere | 38   | ?               | ?    | [Datasheet][a6000] |
-| V100  | Volta  | 14   | 112             | 28   | [Datasheet][v100]  |
-| T4    | Turing | 8.1  | 65              | ?    | [Datasheet][t4]    |
-| P4    | Pascal | 5.5  | N/A             | N/A  | [Datasheet][p4]    |
-| P100  | Pascal | 9.3  | N/A             | 18.7 | [Datasheet][p100]  |
-| K80   | Kepler | 8.73 | N/A             | N/A  | [Datasheet][k80]   |
-| A40   | Ampere | 37   | 150             | 150  | [Datasheet][a40]   |
+| Model | Arch         | FP32 | Mixed-precision | FP16   | Source             |
+| ----- | ------------ | ---- | --------------- | ------ | ------------------ |
+| H100  | Hopper       | 51   | 756             | 1513   | [Datasheet][h100]  |
+| A100  | Ampere       | 19.5 | 156             | 312    | [Datasheet][a100]  |
+| L40   | Ada Lovelace | 90.5 | 181             | 362.1  | [Datasheet][l40]   |
+| A10G  | Ampere       | 35   | 35              | 70     | [Datasheet][a10g]  |
+| A6000 | Ampere       | 38.7 | 154.8           | 309.7  | [Datasheet][a6000] |
+| V100  | Volta        | 14   | 112             | 28     | [Datasheet][v100]  |
+| T4    | Turing       | 8.1  | 65              | ?      | [Datasheet][t4]    |
+| P4    | Pascal       | 5.5  | N/A             | N/A    | [Datasheet][p4]    |
+| P100  | Pascal       | 9.3  | N/A             | 18.7   | [Datasheet][p100]  |
+| K80   | Kepler       | 8.73 | N/A             | N/A    | [Datasheet][k80]   |
+| A40   | Ampere       | 37   | 150             | 150    | [Datasheet][a40]   |
 
 [h100]: https://resources.nvidia.com/en-us-hopper-architecture/nvidia-tensor-core-gpu-datasheet?ncid=no-ncid
 [a100]: https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf
+[l40]: https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/support-guide/NVIDIA-L40-Datasheet-January-2023.pdf
 [a10g]: https://d1.awsstatic.com/product-marketing/ec2/NVIDIA_AWS_A10G_DataSheet_FINAL_02_17_2022.pdf
 [a6000]: https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/proviz-print-nvidia-rtx-a6000-datasheet-us-nvidia-1454980-r9-web%20(1).pdf
 [v100]: https://images.nvidia.com/content/technologies/volta/pdf/tesla-volta-v100-datasheet-letter-fnl-web.pdf
